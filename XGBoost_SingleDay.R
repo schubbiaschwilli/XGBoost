@@ -11,7 +11,7 @@ BSMPrice<-function(PutCallFlag,S,T,K,r,sigma){
 }
 
 # Load data
-load("//Workstation/_Data/h_da/Derivate/Kurse/Batch/JumpLocalVolatilityModel/EurexOptionsDaxPlus.RData")
+load("EurexOptionsDaxPlus.RData")
 Handelstage <- sort(unique(EurexOptionsDax$Handelstag))
 
 ### Select a Handelstag (day)
